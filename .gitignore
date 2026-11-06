@@ -1,0 +1,61 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### OS / Editor Junk ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Local App Data / Runtime Artifacts ###
+*.log
+*.tmp
+*.swp
+/data/
+/uploads/
+
+### Local Environment / Secrets ###
+.env
+.env.*
+!.env.example
+application-local.properties
+src/main/resources/application-local.properties
+
+### Local Databases ###
+*.db
+*.sqlite
+*.sqlite3
